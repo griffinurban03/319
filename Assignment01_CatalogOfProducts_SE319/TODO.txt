@@ -1,0 +1,51 @@
+        ---TODO---
+Marketing Decision:
+    WHAT ARE WE SELLING/ADVERTISING?
+
+Images:
+    Descriptions for images
+
+CONTACT:
+    Contact info for about page
+        -I will add my personal info if you want to tweak the layouts of it -G
+
+PAGES:
+    Categories for Catalogs
+        -Added Calebs art for one
+    Deciding on nav bar style
+    Deciding on catalog style
+    Footer
+    Additional CSS styling
+        -Are we allowed to use JS? (idk lol)
+
+OTHER:
+    Get rid of duplication
+    Comments
+        -when in doubt, annotate *everything*
+
+
+
+        ---WORKING---
+9/14/2024 6:37 PM
+    I added a layout idea for the about section, color and placements are NOT final,
+    If you wanna have a looksie and see if you like it.
+    was mainly using colors to help me see where the grids were,
+    planning to have a gray background where our info cards are instead.
+
+9/14/2024 8:01 PM
+    Finalized the look I was going for, let me know what you think when you see it.
+    Still could use some adjustment, but we have time.
+
+    Caleb - I think the colors look fine
+
+9/16/2024 1pm - 4:30pm
+    Added my about info and changed the layout for the about page so that it is centered
+    and that the other information is wrapped when there isnt enough room. Also added border
+    around the social media icons.
+
+    Added cards to the first catalog which you can name what you want. I figured since theres two        ---Sounds good! I like the art idea, i'll add some of my own stuff later. -Griffin
+    catalogs we could each just do one of our own.
+
+    Named the second catalog and added images for the catalog. Changed the size of the images
+    so that the aspect ratios are correct. Got rid of unnecessary code for the cards. Moved
+    some css into an external css file.

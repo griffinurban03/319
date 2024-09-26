@@ -1,0 +1,54 @@
+.about_container { /* container that holds the individual cards in 'about' */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping of items when there's not enough space */
+    justify-content: center; /* Centers items horizontally */
+    gap: 10px;
+    column-gap: 50px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.profile_name { /* about card name header */
+    margin-top: 10px;
+    font-size: 10vw;
+    text-align: center;
+}
+
+.nested_about_container { /* Styling for the individual 'about us' cards */
+    display: inline;
+    max-width: 600px;
+    grid-template-rows: 50px 450px 300px;
+    column-gap: 100px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    background: #d3caca56;
+}
+
+.profile_picture img { /* about card profile img */
+    display: block;
+    height: 300px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+
+}
+
+.profile_content { /* Text body in about card */
+    font-size: larger;
+    text-align: center;
+}
+
+#navbar {  /* For a sticky navbar, couldn't get this working though.*/
+    position: sticky;
+    top: 0;
+}
+
+body { /* gradient on about page */
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 90%, rgba(194,194,194,1) 100%);
+}
