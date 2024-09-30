@@ -20,7 +20,11 @@ let array = [1,3,5,7,8,9,11,15,16];
 //map function to double everything in the array fast
 
 
-let myDoubleArray = array.map((element)=>element * 2);
+console.log(array.map((element)=>element * 2));
 
-console.log(myDoubleArray);
+//filter function
+
+console.log(array.filter((element)=>element % 2));
+
+
 
