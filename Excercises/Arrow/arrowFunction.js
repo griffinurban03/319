@@ -28,3 +28,16 @@ console.log(array.filter((element)=>element % 2));
 
 
 
+function myDouble(num){
+    return num * 2;
+}
+
+function processNumber(num, callback){
+    const result = callback(num);
+    console.log("Result is : "+result);
+}
+
+processNumber(5, myDouble);
+
+
+
